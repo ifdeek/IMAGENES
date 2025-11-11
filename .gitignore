@@ -1,0 +1,267 @@
+# ============================================================================
+# SEGURIDAD - ARCHIVOS SENSIBLES (NUNCA COMMITEAR)
+# ============================================================================
+
+# Credenciales y configuración sensible
+.env
+.env.*
+*.env
+config.local.yaml
+secrets.yaml
+credentials.json
+
+# Archivos de configuración con datos sensibles
+database.ini
+connection.cfg
+
+# ============================================================================
+# PYTHON
+# ============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# ============================================================================
+# ARCHIVOS DE SALIDA - REPORTES Y LOGS
+# ============================================================================
+
+# Reportes Excel generados
+tablas_unificadas*.xlsx
+output_*.xlsx
+reporte_*.xlsx
+
+# Archivos de log
+*.log
+logs/
+*.log.*
+
+# Archivos temporales de procesamiento
+temp/
+tmp/
+*.tmp
+
+# Backups automáticos
+*.bak
+*.backup
+*~
+
+# ============================================================================
+# DATOS - CSV Y BASES DE DATOS
+# ============================================================================
+
+# Archivos CSV grandes (usar Git LFS si es necesario)
+# Descomentar si se quiere excluir CSVs del versionado
+# *.csv
+
+# Bases de datos locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Dumps de base de datos
+*.sql
+*.dump
+
+# ============================================================================
+# IDEs Y EDITORES
+# ============================================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.*.sw?
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ============================================================================
+# SISTEMAS OPERATIVOS
+# ============================================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+.directory
+.Trash-*
+
+# ============================================================================
+# ARCHIVOS DE IMÁGENES TEMPORALES
+# ============================================================================
+
+# Miniaturas y cachés de imágenes
+.thumbnails/
+*.cache
+
+# ============================================================================
+# HERRAMIENTAS DE DESARROLLO
+# ============================================================================
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Profiling data
+*.prof
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ============================================================================
+# DOCKER (si se usa en el futuro)
+# ============================================================================
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# ============================================================================
+# ARCHIVOS ESPECÍFICOS DEL PROYECTO
+# ============================================================================
+
+# Archivos de auditoría sensibles
+stock_audit.log
+audit_*.log
+
+# Configuraciones locales
+local_config.yaml
+dev_config.yaml
+
+# Carpeta de salidas personalizadas
+output/
+exports/
+
+# ============================================================================
+# NOTAS Y DOCUMENTACIÓN TEMPORAL
+# ============================================================================
+
+# Notas de desarrollo (no parte de documentación oficial)
+NOTES.md
+TODO_PERSONAL.md
+SCRATCH.md
+
+# ============================================================================
+# OPTIMIZACIONES Y PRECOMPILADOS
+# ============================================================================
+
+# Archivos compilados de Cython
+*.c
+*.cpp
+*.pyx.md5
+
+# NumPy binary files
+*.npy
+*.npz
+
+# ============================================================================
+# EXCEPCIONES - ARCHIVOS QUE SÍ DEBEN VERSIONARSE
+# ============================================================================
+
+# Siempre incluir archivos de ejemplo de configuración
+!.env.example
+!config.example.yaml
+!secrets.example.yaml
+
+# README y documentación
+!README.md
+!docs/
+!CHANGELOG.md
+
+# Requirements y dependencias
+!requirements.txt
+!requirements-dev.txt
+!Pipfile
+!pyproject.toml
