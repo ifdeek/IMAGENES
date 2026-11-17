@@ -1,0 +1,5 @@
+﻿Codigo,Nombre,Cantidad_Disponible,Unidad_Medida,Costo_Unitario,Valor_Stock_Total,Categoria,Bodega,Comprometido,Proveedor
+A1,Tinta Negra,10,KG,5.0,50.0,PROD. TINTAS,Bodega 1,0,Prov
+A1,Tinta Negra,5,KG,5.0,25.0,PROD. TINTAS,Bodega 2,0,Prov
+A2,Laminado Brillante,7,KG,2.0,14.0,LAMINADOS,Bodega 1,0,Prov
+A3,Tinta Digital,3,KG,9.0,27.0,PROD. TINTAS DIGITAL,Bodega 1,0,Prov
